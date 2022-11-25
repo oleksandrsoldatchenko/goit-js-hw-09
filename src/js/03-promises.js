@@ -2,7 +2,7 @@
 import Notiflix from 'notiflix';
 
 // Запис константи на форму введення даних
-const form = document.querySelector('form');
+const form = document.querySelector('.form');
 // Створення слухача на кнопку
 form.addEventListener('submit', createPromiseBtn);
 
